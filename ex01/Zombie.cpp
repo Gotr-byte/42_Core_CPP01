@@ -1,6 +1,7 @@
 #include "./Zombie.hpp"
 #include <iostream>
-Zombie::Zombie (): name("default"){}
+Zombie::Zombie (): name("defualt"){
+}
 Zombie::~Zombie(void){
 	std::cout << this->name << " is no more" << std::endl;
 }
