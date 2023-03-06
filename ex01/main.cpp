@@ -14,9 +14,7 @@ int main( void )
 
 	Zombie *hordes = zombieHorde(zombieNumber, "Wild Hunt");
 	while(zombieNumber--)
-	{
 		hordes[zombieNumber].announce();
-	}
 	delete [] hordes;
 	return 0;
 }
